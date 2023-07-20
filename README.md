@@ -65,7 +65,7 @@ Esse guia é escrito para Vimmers iniciantes e avançados. Ele começa com conce
 ## Licença e Direitos Autorais
 Os materiais originais, em inglês, são de autoria de © 2020-2021 Igor Irianto e publicado sob uma licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a>.
 
-A tradução para o português é minha juntamente com diferentes colaboradores deste repositório. Ao colaborar com este repositório você está de acordo em compartilhar seu trabalho com a licença utilizada para este repositório completo.
+A tradução para o português é minha juntamente com diferentes [colaboradores](https://github.com/avfmoreira/Aprenda-Vim/graphs/contributors) deste repositório. Ao colaborar com este repositório você está de acordo em compartilhar seu trabalho com a licença utilizada para este repositório completo.
 
 Se criar sua própria versão desta tradução, por favor atribua os devidos créditos à este repositório, desde que sua versão respeite a mesma licença.
 
