@@ -14,18 +14,6 @@ Há muitos lugares para aprender Vim: o `vimtutor`é um grande lugar para começ
 
 Esse guia é escrito para Vimmers iniciantes e avançados. Ele começa com conceitos simples e termina com outros mais específicos e avançados. Mesmo que você seja um usuário avançado, eu te encorajaria à ler esse guia do começo ao fim, porque você irá aprender alguma coisa nova!
 
-## I Want More Vim Tips!
-
-Follow [@learnvim](https://twitter.com/learnvim) for updates, Vim tips, etc.
-
-## Support This Project
-
-This guide is and will always be free.
-
-If you want to financially support this project, you can [purchase this guide on Leanpub](https://leanpub.com/learnvim).
-
-<a href="https://leanpub.com/learnvim"><img src="images/learn-vim-cover.png" width="100"></a>
-
 ## Table Of Contents
 
 ### Prologue
@@ -70,13 +58,17 @@ If you want to financially support this project, you can [purchase this guide on
 - [Ch 28 - Vimscript Functions](./ch28_vimscript_functions.md)
 - [Ch 29 - Plugin Example: Writing a Titlecase Plugin](./ch29_plugin_example_writing-a-titlecase-plugin.md)
 
-## Translations
+## Traduções
 - [Learn-Vim 中文翻译](https://github.com/wsdjeg/Learn-Vim_zh_cn)(`zh-CN`)
 - [Learn-Vim Spanish](https://github.com/victorhck/learn-Vim-es)(`es`)
 
-## License & Copyright
-The materials here are all © 2020-2021 Igor Irianto.
+## Licença e Direitos Autorais
+Os materiais originais, em inglês, são de autoria de © 2020-2021 Igor Irianto e publicado sob uma licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a>.
+
+A tradução para o português é minha juntamente com diferentes colaboradores deste repositório. Ao colaborar com este repositório você está de acordo em compartilhar seu trabalho com a licença utilizada para este repositório completo.
+
+Se criar sua própria versão desta tradução, por favor atribua os devidos créditos à este repositório, desde que sua versão respeite a mesma licença.
+
+Este trabalho está publicado sob uma licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a>.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" /></a><br />
-
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a>.
