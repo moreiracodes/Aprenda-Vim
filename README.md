@@ -10,9 +10,9 @@ Está é uma tradução do guia, em inglês:
 
 *Aprenda Vim (o Jeito Inteligente)* é um guia para aprender as coisas legais do Vim.
 
-There are many places to learn Vim: the `vimtutor` is a great place to start and the `help` manual has all the references you will ever need. However, the average user needs something more than `vimtutor` and less than the `help` manual. This guide attempts to bridge that gap by highlighting only the key features to learn the most useful parts of Vim in the least time possible.
+Há muitos lugares para aprender Vim: o `vimtutor`é um grande lugar para começar e o manual `help` tem referências que você sempre precisará. Contudo o usuário médio precisa de algo mais que o `vimtutor` e menos que o manual `help`. Esse guia tentará cobrir esse espaço destacando as funções principais para que você aprenda as partes mais úteis do Vim no menor tempo possível.
 
-This guide is written for both beginner and advanced Vimmers. It starts out with broad and simple concepts and ends with specific and advanced concepts. If you're an advanced user already, I would encourage you to read this guide from start to finish anyway, because you will learn something new!
+Esse guia é escrito para Vimmers iniciantes e avançados. Ele começa com conceitos simples e termina com outros mais específicos e avançados. Mesmo que você seja um usuário avançado, eu te encorajaria à ler esse guia do começo ao fim, porque você irá aprender alguma coisa nova!
 
 ## I Want More Vim Tips!
 
