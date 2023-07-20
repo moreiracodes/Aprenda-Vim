@@ -1,6 +1,6 @@
 # Aprenda Vim (O Jeito Inteligente)
 
-## What's This?
+## O que é? 
 
 *Learn Vim (the Smart Way)* is a guide to learn the good parts of Vim.
 
