@@ -1,5 +1,11 @@
 # Aprenda Vim (O Jeito Inteligente)
 
+## Tradução
+
+Está é uma tradução do guia, em inglês:
+
+> Learn Vim (the Smart Way) de Igor Irianto https://github.com/iggredible/Learn-Vim
+
 ## O que é? 
 
 *Aprenda Vim (o Jeito Inteligente)* é um guia para aprender as coisas legais do Vim.
