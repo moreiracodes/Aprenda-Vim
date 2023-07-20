@@ -2,7 +2,7 @@
 
 ## O que é? 
 
-*Learn Vim (the Smart Way)* is a guide to learn the good parts of Vim.
+*Aprenda Vim (o Jeito Inteligente)* é um guia para aprender as coisas legais do Vim.
 
 There are many places to learn Vim: the `vimtutor` is a great place to start and the `help` manual has all the references you will ever need. However, the average user needs something more than `vimtutor` and less than the `help` manual. This guide attempts to bridge that gap by highlighting only the key features to learn the most useful parts of Vim in the least time possible.
 
