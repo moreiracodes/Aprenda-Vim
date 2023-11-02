@@ -58,6 +58,17 @@ Esse guia é escrito para Vimmers iniciantes e avançados. Ele começa com conce
 - [Ch 28 - Vimscript Functions](./ch28_vimscript_functions.md)
 - [Ch 29 - Plugin Example: Writing a Titlecase Plugin](./ch29_plugin_example_writing-a-titlecase-plugin.md)
 
+
+## Contribuindo com a tradução
+
+Se você quiser contribuir para a tradução do guia Aprenda-Vim para o português brasileiro, é só seguir os seguintes passos:
+
+- Crie uma link:https://github.com/moreiracodes/Aprenda-Vim/issues/new[issue] dizendo qual parte do guia deseja traduzir (isso evita que mais de uma pessoa comece a traduzir a mesma parte).
+- Antes de começar a traduzir, é recomendado que você leia as partes do livro já traduzidas. Isso lhe dará uma ideia das convenções de tradução sendo utilizadas.
+- Envie um link:https://github.com/moreiracodes/Aprenda-Vim/pulls[pull request] com a sua contribuição. Possivelmente solicitaremos algumas alterações, visando corrigir problemas ou adequar suas escolhas de tradução ao estilo vigente no restante do guia. Você pode então fazer as alterações e enviar mais commits para seu branch.
+- Caso você seja iniciante em colaborar com projetos open-source no GitHub, leia o link:beginners-guide.asc[guia que preparamos] para se familiarizar com o processo.
+
+
 ## Traduções
 - [Learn-Vim 中文翻译](https://github.com/wsdjeg/Learn-Vim_zh_cn)(`zh-CN`)
 - [Learn-Vim Spanish](https://github.com/victorhck/learn-Vim-es)(`es`)
