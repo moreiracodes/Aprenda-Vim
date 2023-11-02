@@ -75,7 +75,7 @@ Dentro dele, adicione `set number`. Salve-o (`:w`), então obtenha ele (`:source
 
 Alternativamente, se você não quiser fazer uma configuração permanente, você sempre pode executar a linha de comando, executando `:set number`. O contra dessa abordagem é que essa configuração é temporária. Quando você fechar o Vim, a opção desaparecerá.
 
-Já que estamos aprendendo sobreo Vim e não Vi, uma configuração que você deve ter é a opção `nocompatible`. Adicione `set nocompatible` no seu vimrc. Muitas características específicas do Vim são desabilitadas quando ele está executando no modo de compatibilidade `compatible`.  
+Já que estamos aprendendo sobre o Vim e não Vi, uma configuração que você deve ter é a opção `nocompatible`. Adicione `set nocompatible` no seu vimrc. Muitas características específicas do Vim são desabilitadas quando ele está executando no modo de compatibilidade `compatible`.  
 
 No geral, sempre que uma passagem mencionar uma opção vimrc, apenas adicione ela no seu vimrc, salve e obtenha ele.
 
@@ -94,4 +94,3 @@ Para aprender mais sobre Vim, por favor siga [@learnvim](https://twitter.com/lea
 Esse guia não seria possível sem Bram Moleenar por criar o Vim, minha esposa por ter sido muito paciente e solidária durante essa jornada, a todos os [contribuidores](https://github.com/iggredible/Learn-Vim/graphs/contributors) do learn-vim project, a comunidade Vim, e muitos, muitos outros que não foram mencionados.
 
 Obrigado. Vocês todos ajudaram a fazer esse texto divertido :)
-
