@@ -63,10 +63,10 @@ Esse guia é escrito para Vimmers iniciantes e avançados. Ele começa com conce
 
 Se você quiser contribuir para a tradução do guia Aprenda-Vim para o português brasileiro, é só seguir os seguintes passos:
 
-- Crie uma link:[issue](https://github.com/moreiracodes/Aprenda-Vim/issues/new) dizendo qual parte do guia deseja traduzir (isso evita que mais de uma pessoa comece a traduzir a mesma parte).
+- Crie uma link: [issue](https://github.com/moreiracodes/Aprenda-Vim/issues/new) dizendo qual parte do guia deseja traduzir (isso evita que mais de uma pessoa comece a traduzir a mesma parte).
 - Antes de começar a traduzir, é recomendado que você leia as partes do livro já traduzidas. Isso lhe dará uma ideia das convenções de tradução sendo utilizadas.
-- Envie um link:[pull request](https://github.com/moreiracodes/Aprenda-Vim/pulls) com a sua contribuição. Possivelmente solicitaremos algumas alterações, visando corrigir problemas ou adequar suas escolhas de tradução ao estilo vigente no restante do guia. Você pode então fazer as alterações e enviar mais commits para seu branch.
-- Caso você seja iniciante em colaborar com projetos open-source no GitHub, leia o link:[guia que preparamos](beginners-guide.asc) para se familiarizar com o processo.
+- Envie um link: [pull request](https://github.com/moreiracodes/Aprenda-Vim/pulls) com a sua contribuição. Possivelmente solicitaremos algumas alterações, visando corrigir problemas ou adequar suas escolhas de tradução ao estilo vigente no restante do guia. Você pode então fazer as alterações e enviar mais commits para seu branch.
+- Caso você seja iniciante em colaborar com projetos open-source no GitHub, leia o link: [guia que preparamos](beginners-guide.asc) para se familiarizar com o processo.
 
 
 ## Traduções
