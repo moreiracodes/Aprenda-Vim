@@ -1,95 +1,97 @@
-# Ch00. Read This First
+# Ch00. Leia isso primeiro
 
-## Why This Guide Was Written
+## Por que esse guia foi escrito
 
-There are many places to learn Vim: the `vimtutor` is a great place to start and the `:help` manual has all the references you will ever need.
+Há muitos lugares para aprender Vim: o `vimtutor` é um grante lugar para começar e o manual `:help` tem todas as referencias que você pode precisar.
 
-However, the average user needs something more than `vimtutor` and less than the `:help` manual. This guide attempts to bridge that gap by highlighting only the key features to learn the most useful parts of Vim in the least time possible.
+Contudo, o usuário médio precisa de algo mais que `vimtutor` e menos que o manual `:help`. Esse guia busca preencher esse espaço destacando apenas as funções chave para aprender as partes mais úteis do Vim no menor tempo possível.
 
-Chances are you won't need all 100% of Vim features. You probably only need to know about 20% of them to become a powerful Vimmer. This guide will show you which Vim features you will find most useful.
+Provavelmente você não precisará de 100% das funcões do Vim. Você provavelmente somente precisará saber uns 20% delas para se tormar um poderoso Vimmer. Esse guia irá te mostrar quais funções do Vim você achará mais uteis.
 
-This is an opinionated guide. It covers techniques that I often use when using Vim. The chapters are sequenced based on what I think would make the most logical sense for a beginner to learn Vim.
+Esse é um guia opinativo. Ele cobrirá técnicas que eu frequentemente uso quando uso Vim. Os capítulos são sequenciados baseados no que eu acho que faria mais sentido para um iniciante aprender Vim.
 
-This guide is examples-heavy. When learning a new skill, examples are indispensable, having numerous examples will solidify these concepts more effectively.
+Esse guia é cheio de exemplos. Quando aprendemos uma nova habilidade, exemplos são indispensáveis, ter numerosos exemplos solidificará os conceitos mais efetivamente.
 
-Some of you may wonder why do you need to learn Vimscript? In my first year of using Vim, I was content with just knowing how to use Vim. Time passed and I started needing Vimscript more and more to write custom commands for my specific editing needs. As you are mastering Vim, you will sooner or later need to learn Vimscript. So why not sooner? Vimscript is a small language. You can learn its basics in just four chapters of this guide.
+Alguns de vocês podem imaginar o por que você precisa aprender Vimscript? No meu primeiro ano usando Vim, eu estava contente apenas sabendo como usar Vim. O tempo passou e eu comecei a precisar de Vimscript mais e mais para escrever comandos personalizados para minhas necessidades de edição específicas. Conforme você vai dominando Vim, cedo ou tarde você precisará aprender Vimscript. Então por que não cedo? Vimscript é a uma pequena linguagem. Você pode aprender o básico em apenas 4 capítulos desse guia.
 
-You can go far using Vim without knowing any Vimscript, but knowing it will help you excel even farther.
+Você pode ir longe usando Vim sem saber nada de Vimscript, mas saber disso o ajudará a se destacar ainda mais.
 
-This guide is written for both beginner and advanced Vimmers. It starts out with broad and simple concepts and ends with specific and advanced concepts. If you're an advanced user already, I would encourage you to read this guide from start to finish anyway, because you will learn something new!
+Esse guia é escrito para ambos, Vimmers iniciantes e avançados. Ele começa com amplos e simples conceitos e termina com conceitos específicos e avançados. Se você já for um usuário avançado, eu te encorajaria a ler esse guia do começo ao fim do mesmo jeito, porque você irá aprender alguma coisa nova!
 
-## How to Transition to Vim From Using a Different Text Editor
+## Como fazer a transição para o Vim usando um editor de texto diferente
 
-Learning Vim is a satisfying experience, albeit hard. There are two main approaches to learn Vim:
+Aprender Vim é uma experiência satisfatória, embora difícil. Há duas principais abordagens para aprender Vim:
 
-1. Cold turkey
+1. Cold turkey 
 2. Gradual
 
-Going cold turkey means to stop using whatever editor / IDE you were using and to use Vim exclusively starting now. The downside of this method is you will have a serious productivity loss during the first week or two. If you're a full-time programmer, this method may not be feasible. That's why for most people, I believe the best way to transition to Vim is to use it gradually.
+Indo pela cold turkey significa parar de usar qualquer editor / IDE que você tem usado e usar exclusivamente o Vim a partir de agora. O contra desse método é que você terá uma séria perda de produtividade durante a primeira ou segunda semana. Se você é um programador de tempo integral, esse método pode não ser viável. Esse é o porque para a maioria das pessoas, eu acredito que o melhor jeito de fazer essa transição para Vim é usá-lo gradualmente.
 
-To gradually use Vim, during the first two weeks, spend an hour a day using Vim as your editor while the rest of the time you can use other editors. Many modern editors come with Vim plugins. When I first started, I used VSCode's popular Vim plugin for an hour per day. I gradually increased the time with the Vim plugin until I finally used it all day. Keep in mind that these plugins can only emulate a fraction of Vim features. To experience the full power of Vim like Vimscript, Command-line (Ex) Commands, and external commands integration, you will need to use Vim itself.
+Para gradualmente usar Vim, durante as primeiras duas semanas, gaste 1 hora do dia usando Vim como seu editor enquanto o resto do tempo voce pode usar outros editores. Muitos editores modernos vem com plugins Vim. Quando eu comecei, eu usei o popular plugin Vim do VSCode por uma hora por dia. Eu gradualmente aumentei o tempo com o plugin Vim até eu finalmente usá-lo o dia todo. Tenha em mente que esses plugins podem apenas emular uma parte das funções do Vim. Para ter uma experiência do completo poder do Vim como Vimscript, comandos de linha de comando (Ex), e integração de comandos externos, você precisará usar o próprio Vim.
 
-There were two pivotal moments that made me start to use Vim 100%: when I grasped that Vim has a grammar-like structure (see chapter 4) and the [fzf.vim](https://github.com/junegunn/fzf.vim) plugin (see chapter 3).
+Houveram dois momentos cruciais que me fizeram começar usar Vim 100%: quando eu percebi que Vim tem uma estrutura semelhante a uma gramática (ver capítulo 4) e o plugin [fzf.vim](https://github.com/junegunn/fzf.vim) (ver capítulo 4).
 
-The first, when I realized Vim's grammar-like structure, was the defining moment that I finally understood what these Vim users were talking about. I didn't need to learn hundreds of unique commands. I only had to learn a small handful of commands and I could chain in a very intuitive way to do many things.
+O primeiro, quando eu percebi a estrutura semelhante a uma gramática do Vim, foi o momento definidor que eu finalmente entendi o que aqueles usuários Vim falavam. Eu não precisei aprender centenas de comandos únicos. Eu só tive que aprender poucos e úteis comandos e eu pude encadear de uma forma muito intuitiva para fazer muitas coisas.
 
-The second, the ability to quickly run a fuzzy file-search was the IDE feature that I used most. When I learned how to do that in Vim, I gained a major speed boost and never looked back ever since.
+A segunda, a habilidade de executar rapidamente uma pesquisa difusa de arquivos foi a função IDE que eu mais usei. Quando eu aprendi como fazer isso no Vim, eu ganhei um grande aumento de velocidade e nunca mais olhei pra trás.
 
-Everyone programs differently. Upon introspection, you will find that there are one or two features from your favorite editor / IDE that you use all the time. Maybe it was fuzzy-search, jump-to-definition, or quick compilation. Whatever they may be, identify them quickly and learn how to implement those in Vim (chances are Vim can probably do them too). Your editing speed will receive a huge boost.
+Todo mundo programa diferentemente. Após introspecção, você encontrará uma ou duas funções
+do seu editor/IDE favoritos que você usa o tempo todo. Talvez seja a pesquisa difusa, pular-para, ou compilação rápida. Seja o que for que eles possam ter, identifique eles rapidamente e aprenda como implementá-lo no Vim (Provavelmente o Vim possa tê-las também). Seu editor rapidamente receberá um grande impulso.
 
-Once you can edit at 50% of the original speed, it's time to go full-time Vim.
+Uma vez que você edite na metade da velocidade original, é hora de ir para o Vim em tempo integral.
 
-## How to Read This Guide
+## Como ler este guia
 
-This is a practical guide. To become good in Vim you need to develop your muscle memory, not head knowledge.
+Este é um guia prático. Para se tornar bom em Vim você precisa desenvolver memória muscular, mas não antes de aprender.
 
-You don't learn how to ride a bike by reading a guide about how to ride a bike. You need to actually ride a bike.
+Você não aprende como andar de bicicleta lendo um guia sobre como andar de bicicleta. Você precisa de fato andar de bicicleta.
 
-You need to type every command referred in this guide. Not only that, but you need to repeat them several times and try different combinations. Look up what other features the command you just learned has. The `:help` command and search engines are your best friends. Your goal is not to know everything about a command, but to be able to execute that command naturally and instinctively.
+Você precisa digitar cada comando referido nesse guia. Não apenas isso, mas você precisa repeti-lo várias vezes e tentar diferentes combinações. Veja quais outros recursos o comando que você acabou de aprender possui. O comando `:help` e mecanismos de busca são seus melhores amigos. Seu objetivo não é saber tudo sobre um comando, mas ser capaz de executá-lo natural e instintivamente.
 
-As much as I try to fashion this guide to be linear, some concepts in this guide have to be presented out-of-order. For example in chapter 1, I mention the substitute command (`:s`), even though it won't be covered until chapter 12. To remedy this, whenever a new concept that has not been covered yet is mentioned early, I will provide a quick how-to guide without a detailed explanation. So please bear with me :).
+Por mais que eu tente moldar esse guia para ser linear, alguns conceitos nesse guia precisam ser apresentados fora de ordem No capítulo 1, por exemplo, eu mencionei o comando de substituição (`:s`), apesar de não ser abordando até o capítulo 12. Para remediar isso, sempre que um novo conceito que ainda não foi abordado for mencionado, eu farei uma rápida explicação sem muitos detalhes. Então por favor tenha paciência comigo :).
 
-## More Help
+## Mais ajuda
 
-Here's one extra tip to use the help manual: suppose you want to learn more about what `Ctrl-P` does in insert mode. If you merely search for `:h CTRL-P`, you will be directed to normal mode's `Ctrl-P`. This is not the `Ctrl-P` help that you're looking for. In this case, search instead for `:h i_CTRL-P`. The appended `i_` represents the insert mode. Pay attention to which mode it belongs to.
+Aqui está mais uma dica extra para usar o manual help: suponha que você quer aprender mais sobre o que `Ctrl-P` faz no modo de inserção. Se você apenas procurar por `:h CTRL-P`, você será direcionado para o modo normal de `CTRL-P`. Esse não é a ajuda `CTRL-P` que você está procurando. Nesse caso, procure por 
+`:h i_CTRL-P`. O prefixo `i_` representa o modo de inserção. Preste atenção a qual modo ele pertence.
 
-## Syntax
+## Síntaxe
 
-Most of the command or code-related phrases are in code-case (`like this`).
+A maioria dos comandos ou frases relacionadas a código são exibidas (`assim`)
 
-Strings are surrounded by a pair of double-quotes ("like this").
+Strings estão entre um par de aspas duplas ("assim").
 
-Vim commands can be abbreviated. For example, `:join` can be abbreviated as `:j`. Throughout the guide, I will be mixing the shorthand and the longhand descriptions. For commands that are not frequently used in this guide, I will use the longhand version. For commands that are frequently used, I will use the shorthand version. I apologize for the inconsistencies. In general, whenever you spot a new command, always check it on `:help` to see its abbreviations.
+Comandos Vim pode ser abreviados. Por exemplo, `:join` pode ser abreviado como `:j`. Através do guia, eu irei misturar formas curtas e longas das descrições. Para comandos que não são frequentemente usados nesse guia eu usarei a  versão longa. Para comandos frequentemente usados, eu usarei a versão curta. Me desculpem pela inconsistência. Em geral, sempre que você encontrar um novo comando, verifique-o em `:help` para ver suas abreviações.
 
 ## Vimrc
 
-At various points in the guide, I will refer to vimrc options. If you're new to Vim, a vimrc is like a config file.
+Em vários pontos no guia eu vou me referir às opções vimrc. Se você é novo com Vim, um vimrc é como um arquivo de configuração.
 
-Vimrc won't be covered until chapter 21. For the sake of clarity, I will show briefly here how to set it up.
+Vimrc não será abordado até o capítulo 21. Por uma questão de clareza, eu mostrarei brevemente como configurá-lo.
 
-Suppose you need to set the number options (`set number`). If you don't have a vimrc already, create one. It is usually placed in your home directory and named `.vimrc`. Depending on your OS, the location may differ. In macOS, I have it on `~/.vimrc`. To see where you should put yours, check out `:h vimrc`.
+Suponha que você precise configurar o número de opções (`set number`). Se você ainda não tem um vimrc, crie-o. Ele normalmente é chamado `.vimrc` e fica no diretório home. Dependendo do seu sistema operacional a localização pode diferir. No macOS, ele está em `~/.vimrc`. Para ver ver onde você deve colocar o seu, verifique `:h vimrc`.
 
-Inside it, add `set number`. Save it (`:w`), then source it (`:source %`). You should now see line numbers displayed on the left side.
+Dentro dele, adicione `set number`. Salve-o (`:w`), então obtenha ele (`:source %`). Agora você deverá ver o número das linhas mostrado no lado esquerdo.  
 
-Alternatively, if you don't want to a make permanent setting change, you can always run the `set` command inline, by running `:set number`. The downside of this approach is that this setting is temporary. When you close Vim, the option disappears.
+Alternativamente, se você não quiser fazer uma configuração permanente, você sempre pode executar a linha de comando, executando `:set number`. O contra dessa abordagem é que essa configuração é temporária. Quando você fechar o Vim, a opção desaparecerá.
 
-Since we are learning about Vim and not Vi, a setting that you must have is the `nocompatible` option. Add `set nocompatible` in your vimrc. Many Vim-specific features are disabled when it is running on `compatible` option.
+Já que estamos aprendendo sobreo Vim e não Vi, uma configuração que você deve ter é a opção `nocompatible`. Adicione `set nocompatible` no seu vimrc. Muitas características específicas do Vim são desabilitadas quando ele está executando no modo de compatibilidade `compatible`.  
 
-In general, whenever a passage mentions a vimrc option, just add that option into vimrc, save it, and source it.
+No geral, sempre que uma passagem mencionar uma opção vimrc, apenas adicione ela no seu vimrc, salve e obtenha ele.
 
-## Future, Errors, Questions
+## Futuro, Erros e Dúvidas
 
-Expect more updates in the future. If you find any errors or have any questions, please feel free to reach out.
+Espere mais atualizações no futuro. Se você encontrar erros ou tiver qualquer dúvida, sinta-se livre para me contatar.
 
-I also have planned a few more upcoming chapters, so stay tuned!
+Eu também planejei mais alguns capítulos futuros, então fique ligado!
 
-## I Want More Vim Tricks
+## Eu quero mais truques do Vim
 
-To learn more about Vim, please follow [@learnvim](https://twitter.com/learnvim).
+Para aprender mais sobre Vim, por favor siga [@learnvim](https://twitter.com/learnvim) (em inglês).
 
-## Thank Yous
+## Agradecimentos - Versão original
 
-This guide wouldn't be possible without Bram Moleenar for creating Vim, my wife who had been very patient and supportive throughout the journey, all the [contributors](https://github.com/iggredible/Learn-Vim/graphs/contributors) of the learn-vim project, the Vim community, and many, many others that weren't mentioned.
+Esse guia não seria possível sem Bram Moleenar por criar o Vim, minha esposa por ter sido muito paciente e solidária durante essa jornada, a todos os [contribuidores](https://github.com/iggredible/Learn-Vim/graphs/contributors) do learn-vim project, a comunidade Vim, e muitos, muitos outros que não foram mencionados.
 
-Thank you. You all help make text editing fun :)
+Obrigado. Vocês todos ajudaram a fazer esse texto divertido :)
 
