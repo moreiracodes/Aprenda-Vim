@@ -16,14 +16,14 @@ Esse guia é escrito para Vimmers iniciantes e avançados. Ele começa com conce
 
 ## Table Of Contents
 
-### Prologue
+### Prólogo
 
-- [Ch 0     - Read This First](./ch00_read_this_first.md)
+- [Leia isso primeiro](./ch00_read_this_first.md)
 
-### Part 1: Learn Vim the Smart Way
+### Parte 1: Aprenda Vim (O Jeito Inteligente)
 
-- [Ch 1     - Starting Vim](./ch01_starting_vim.md)
-- [Ch 2     - Buffers, Windows, and Tabs](./ch02_buffers_windows_tabs.md)
+- [Capítulo 01. Começando com Vim](./ch01_starting_vim.md)
+- [Capítulo 02. Buffers, Janelas e Abas](./ch02_buffers_windows_tabs.md)
 - [Ch 3     - Opening and Searching Files](./ch03_searching_files.md)
 - [Ch 4     - Vim Grammar](./ch04_vim_grammar.md)
 - [Ch 5     - Moving in a File](./ch05_moving_in_file.md)
